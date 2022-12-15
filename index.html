@@ -86,7 +86,36 @@
                 <div class="swiper-button-prev"></div>
                 <div class="swiper-button-next"></div>
         </div>
+
+        <!--CARD-->
+        <div class="card">
+            <!--1º Linha-->
+            <div class="card__descricao">
+                <!--1º Coluna-->
+                <div class="descricao">
+                    <h3 class="descricao__titulo">Talvez você também se interesse por...</h3>
+                    <h2 class="descricao__titulo-livro">Angular 11 e Firebase</h2>
+                    <p class="descricao__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
+                </div>
+                <!--2º Coluna-->
+                <img src="img/Livro-Angular.svg" alt="Imagem do framework Angular" class="descricao__imagem">
+            </div> 
+
+         <!--2º Linha-->
+         <div class="card__botoes">
+            <!--1º Coluna-->
+           <ul class="botoes">
+            <li class="botoes__item"><img src="img/Favoritos.svg" alt="Favoritar Livro"></li>
+            <li class="botoes__item"><img src="img/Compras.svg" alt="Adicionar no carrinho"></li>
+           </ul> 
+           <!--2º Coluna-->
+           <a href="#" class="botoes__ancora">Saiba Mais</a>
+         </div>
+    </div>
+
     </section>
+
+    <!--JAVASCRIPT-->
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script>
         const swiper = new Swiper('.swiper', {
