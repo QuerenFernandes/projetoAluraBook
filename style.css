@@ -2,14 +2,18 @@
 @import url("styles/banner.css");
 @import url("styles/carrossel.css");
 @import url("styles/card.css");
+@import url("styles/topicos.css");
+@import url("styles/contato.css");
+@import url("styles/rodape.css");
 
 :root {
     --cor-de-fundo: #EBECEE;
     --branco: #FFFFFF;
     --laranja: #EB9B00;
     --azul: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
-    --fonte-principal: 'Poppins', sans-serif;
     --azul-escuro: #002F52;
+    --fonte-principal: 'Poppins', sans-serif;
+    --font-secundaria: 'Josefin Sans', sans-serif;
 
 }
 
