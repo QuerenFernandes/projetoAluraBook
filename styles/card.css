@@ -56,3 +56,18 @@
     }
     
 }
+
+@media screen and (min-width: 1728px) {
+    .card {
+        width: 60%;
+    }
+
+    .descricao__texto {
+        font-size: 16px;  
+    }
+
+    .descricao__titulo {
+        font-size: 25px;
+    
+    }
+}

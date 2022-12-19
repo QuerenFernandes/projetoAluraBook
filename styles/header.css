@@ -15,6 +15,15 @@
     display: inline-block;
 }
 
+/*alterando a cor do menu quando clicado*/
+.container__botao:checked~.container__rotulo>.cabecalho__menu-hamburguer {
+    background-image: url("../img/MenuAberto.svg");
+}
+
+.container__botao:checked~.container__rotulo {
+    background: var(--azul);
+}
+
 .container {
     display: flex;
     align-items: center;
@@ -25,7 +34,6 @@
 }
 
 .lista-menu {
-    display: none;
     position: absolute;
     top: 100%;
     width: 60vw;
@@ -55,13 +63,13 @@
 }
 
 .container__botao, 
-.opcoes {
+.opcoes,
+.lista-menu,
+.container__titulo,
+.container__texto {
     display: none;
 }
 
-.container__titulo {
-    display: none;
-}
 
 /*RESPONSIVO - TELAS DE 1024 - TABLET*/
 @media screen and (min-width: 1024px) {
@@ -106,5 +114,44 @@
     
     .opcoes__botao {
         display: none;
+    }
+
+    .opcoes__botao:checked~.opcoes__rotulo>.opcoes__item {
+        background: var(--azul);
+        color: var(--branco);
+    }
+
+    .opcoes__item {
+        padding: 0.7em 2.3em;
+    }
+
+    .lista-menu__item:hover {
+        background: var(--azul);
+    }
+
+    .lista-menu__item:hover>.lista-menu__link {
+        -webkit-text-fill-color: var(--branco);
+        text-decoration: none;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .container__link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--preto);
+    }
+
+    .cabecalho {
+        padding: 0 2em;
+    }
+
+    .opcoes {
+        margin-right: auto;
+    }
+
+    .container__texto {
+        display: block;
     }
 }
