@@ -7,12 +7,12 @@ Você pode acessar o projeto completo em: https://querenhapuquerocha.github.io/p
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
 Layout 1728 px
-![](https://via.placeholder.com/1200x500.png?text=imagem+lindona+do+meu+projeto#vitrinedev)
-
+![](img/1728.png#vitrinedev)
+    
 Layout 1024 px
-![](https://via.placeholder.com/1200x500.png?text=imagem+lindona+do+meu+projeto#vitrinedev)
+![](img/1024.png#vitrinedev)
 
 Layout 428 px
-![](https://via.placeholder.com/1200x500.png?text=imagem+lindona+do+meu+projeto#vitrinedev)
+![](img/428.png#vitrinedev)
 
 
