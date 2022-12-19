@@ -1,17 +1,18 @@
-# Nome do meu projeto
+# Alura Book
 
-Rápida descrição do objetivo de fazer esse projeto
+Nesse projeto tive a oportunidade de desenvolver um projeto completo aplicando o conceito de mobile-first. O projeto foi disponibilizado em três layouts. 
 
-| :placard: Vitrine.Dev |     |
-| -------------  | --- |
-| :sparkles: Nome        | **Titulo do meu projeto**
-| :label: Tecnologias | java, html, ruby, c# (tecnologias utilizadas)
-| :rocket: URL         | https://url-deploy.com.br
-| :fire: Desafio     | https://url-do-desafio.com.br
+Você pode acessar o projeto completo em: https://querenhapuquerocha.github.io/projetoAluraBook/ 
+
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
+Layout 1728 px
 ![](https://via.placeholder.com/1200x500.png?text=imagem+lindona+do+meu+projeto#vitrinedev)
 
-## Detalhes do projeto
+Layout 1024 px
+![](https://via.placeholder.com/1200x500.png?text=imagem+lindona+do+meu+projeto#vitrinedev)
 
-Textos e imagens que descrevam seu projeto, suas conquistas, seus desafios, próximos passos, etc...
+Layout 428 px
+![](https://via.placeholder.com/1200x500.png?text=imagem+lindona+do+meu+projeto#vitrinedev)
+
+
