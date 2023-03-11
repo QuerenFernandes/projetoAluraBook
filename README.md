@@ -1,18 +1,7 @@
 # Alura Book
 
-Nesse projeto tive a oportunidade de desenvolver um projeto completo aplicando o conceito de mobile-first. O projeto foi disponibilizado em três layouts. 
+Inicialmente, nesse projeto tive a oportunidade de desenvolver um projeto completo aplicando o conceito de mobile-first. O projeto foi disponibilizado em três layouts. 
 
-Você pode acessar o projeto completo em: https://querenhapuquerocha.github.io/projetoAluraBook/ 
+Em seguida, usei o mesmo projeto para aplicar os conceitos dos métodos de array, aplicando filtros com funcionalidades, como soma, mostrar livros disponíveis e etc. 
 
-
-<!-- Inserir imagem com a #vitrinedev ao final do link -->
-Layout 1728 px
-![](img/1728.png#vitrinedev)
-    
-Layout 1024 px
-![](img/1024.png#vitrinedev)
-
-Layout 428 px
-![](img/428.png#vitrinedev)
-
-
+Você pode acessar o projeto completo em: 
